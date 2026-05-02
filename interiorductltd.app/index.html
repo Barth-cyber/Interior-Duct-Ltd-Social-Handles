@@ -255,13 +255,13 @@
 
         // Logo mapping for platforms
         const logoMap = {
-            'whatsapp': 'social logos/WhatsApp1.PNG',
-            'instagram': 'social logos/Instagram.PNG',
-            'facebook': 'social logos/Facebook.PNG',
-            'tiktok': 'social logos/TikTok.PNG',
-            'youtube': 'social logos/YouTube.PNG',
-            'linkedin': 'social logos/LinkedIn.PNG',
-            'twitter': 'social logos/Social2.png'
+            'whatsapp': '../social logos/WhatsApp1.PNG',
+            'instagram': '../social logos/Instagram.PNG',
+            'facebook': '../social logos/Facebook.PNG',
+            'tiktok': '../social logos/TikTok.PNG',
+            'youtube': '../social logos/YouTube.PNG',
+            'linkedin': '../social logos/LinkedIn.PNG',
+            'twitter': '../social logos/Social2.png'
         };
 
         // Parse query parameters
@@ -306,7 +306,7 @@
             if (links.length === 0 && params.has('id')) {
                 const id = params.get('id');
                 try {
-                    const resp = await fetch(`./links/${encodeURIComponent(id)}.json`);
+                    const resp = await fetch(`../links/${encodeURIComponent(id)}.json`);
                     if (resp.ok) {
                         const json = await resp.json();
                         // Support legacy array format or object with { links: [...] }
