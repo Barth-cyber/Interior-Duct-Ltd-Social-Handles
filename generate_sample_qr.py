@@ -16,8 +16,8 @@ try:
     
     # Build the scan URL
     links_json = json.dumps(links, separators=(',', ':'))
-    base = 'https://barth-cyber.github.io/IDL-QrGen/'
-    scan_url = base + 'scan.html?links=' + urllib.parse.quote(links_json, safe='')
+    base = 'https://barth-cyber.github.io/interiorductltd.app'
+    scan_url = base + '?links=' + urllib.parse.quote(links_json, safe='')
     
     print(f"Generated scan URL (length: {len(scan_url)})")
     

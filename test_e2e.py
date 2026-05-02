@@ -57,8 +57,8 @@ def test_scan_url_generation(links):
     
     # Simulate generateSocialQR() logic
     links_json = json.dumps(links)
-    base = 'https://barth-cyber.github.io/IDL-QrGen/'
-    scan_url = base + 'scan.html?links=' + urllib.parse.quote(links_json, safe='')
+    base = 'https://barth-cyber.github.io/interiorductltd.app'
+    scan_url = base + '?links=' + urllib.parse.quote(links_json, safe='')
     
     print(f"✓ Generated scan URL:")
     print(f"  Base: {base}")

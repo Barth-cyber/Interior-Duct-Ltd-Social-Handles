@@ -3,8 +3,8 @@ import qrcode
 from PIL import Image
 
 short_id = 'yklwu8'
-base = 'https://barth-cyber.github.io/IDL-QrGen/'
-scan_url = base + f'scan.html?id={short_id}'
+base = 'https://barth-cyber.github.io/interiorductltd.app'
+scan_url = base + f'?id={short_id}'
 
 out_dir = 'assets'
 os.makedirs(out_dir, exist_ok=True)

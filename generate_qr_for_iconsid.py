@@ -4,8 +4,8 @@ from qrcode.image.svg import SvgImage
 from PIL import Image
 
 short = 'idl_icons_v1'
-base = 'https://barth-cyber.github.io/IDL-QrGen/'
-url = base + f'scan.html?iconsId={short}'
+base = 'https://barth-cyber.github.io/interiorductltd.app'
+url = base + f'?iconsId={short}'
 
 out = 'assets'
 os.makedirs(out, exist_ok=True)
