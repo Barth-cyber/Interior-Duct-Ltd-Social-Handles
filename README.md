@@ -1,4 +1,4 @@
-# Interior Duct Ltd — QR Code Generator
+# Interior Duct Ltd — Social Media Marketing
 
 A private, client-side QR code generator for Interior Duct Ltd. Generates branded QR codes linking to a mobile app view displaying all social media channels. **No tracking, no external servers.**
 
