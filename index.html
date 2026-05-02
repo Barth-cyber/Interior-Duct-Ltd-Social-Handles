@@ -459,7 +459,7 @@
 
             const linksJson = JSON.stringify(links);
             const base = `${window.location.origin}${window.location.pathname.replace('index.html', '')}`;
-            const scanUrl = `${base}interiorductltd.app?links=${encodeURIComponent(linksJson)}`;
+            const scanUrl = `${base}app.html?links=${encodeURIComponent(linksJson)}`;
 
             // If payload long or multiple links, increase size and disable embedded logo for better scanning
             const preferLarge = linksJson.length > 180 || links.length > 3;
