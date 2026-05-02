@@ -62,6 +62,6 @@ if __name__ == '__main__':
     print('Wrote mapping to', new_path)
     ok = git_add_commit_push(new_path, f'Add short-link mapping {new_id}')
     if ok:
-        print('Pushed to origin. Short URL: scan.html?id=' + new_id)
+        print('Pushed to origin. Short URL: interiorductltd.app?id=' + new_id)
     else:
         print('Failed to push mapping to remote. Short file created locally at', new_path)

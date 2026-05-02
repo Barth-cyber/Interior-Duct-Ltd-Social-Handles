@@ -104,11 +104,11 @@ def test_qr_url_validity(scan_url):
     
     try:
         urllib.parse.urlparse(scan_url)
-        # Verify it's HTTPS and points to scan.html
-        if 'scan.html' in scan_url and scan_url.startswith('https://'):
+        # Verify it's HTTPS and points to the app URL
+        if 'interiorductltd.app' in scan_url and scan_url.startswith('https://'):
             print(f"✓ Scan URL is valid HTTPS URL")
             print(f"  Protocol: HTTPS ✓")
-            print(f"  Target: scan.html ✓")
+            print(f"  Target: interiorductltd.app ✓")
             print(f"  Has links parameter: {'?links=' in scan_url}")
             return True
         else:
