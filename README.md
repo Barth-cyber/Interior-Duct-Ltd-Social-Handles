@@ -1,13 +1,13 @@
-# Interior Duct Ltd — QR Code Generator
+# Interior Duct Ltd — Social Media Marketing
 
 A private, client-side QR code generator for Interior Duct Ltd. Generates branded QR codes linking to a mobile app view displaying all social media channels. **No tracking, no external servers.**
 
-## 🚀 Live Site
+## Live Site
 
 **Generator:** https://barth-cyber.github.io/interiorductltd.html  
 **Mobile View:** https://barth-cyber.github.io/interiorductltd.app
 
-## 📁 Files
+## Files
 
 - `index.html` — Main QR generator app (3 modes)
 - `scan.html` — Mobile view displaying social media links
@@ -15,7 +15,7 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
 - `assets/sample_social_qr.png` — Example QR code
 - `test_e2e.py` — End-to-end testing script
 
-## ✨ Features
+## Features
 
 ### 1. **Single URL QR Generation**
    - Generate QR for any URL
@@ -23,7 +23,7 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
    - Campaign tracking
    - Download as PNG
 
-### 2. **Social Media Links Mode** ⭐ (Main Feature)
+### 2. **Social Media Links Mode** (Main Feature)
    - **Dynamic rows** — Add multiple social platforms at once
    - **Auto-generate** — Pre-fill all Interior Duct Ltd links (WhatsApp, Instagram, TikTok, Facebook, X, YouTube, LinkedIn)
    - **Single QR Code** — One scan displays all social links
@@ -35,7 +35,7 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
    - Generate grid of QR codes
    - Download all as ZIP file
 
-## 🎯 Quick Start
+##  Quick Start
 
 ### For End Users (Marketing Team)
 
@@ -60,7 +60,7 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
 4. **Generate:** Click "Generate Social QR Code"
 5. **Download:** Click "Download Social QR Code (PNG)"
 
-## 📱 Mobile View (scan.html)
+## Mobile View (scan.html)
 
 When a QR is scanned, customers see:
 - **Header:** Interior Duct Ltd logo + tagline ("Functionality, Durability, Aesthetics")
@@ -70,7 +70,7 @@ When a QR is scanned, customers see:
 
 All social links open directly in their respective apps/websites.
 
-## 🔧 Customization
+##  Customization
 
 ### Add/Remove Platforms
 
@@ -105,21 +105,21 @@ In `scan.html` header section (line ~54):
 </div>
 ```
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **HTML5/CSS3/JavaScript** — Client-side only
 - **QR.js** (CDN) — QR code generation
 - **JSZip + FileSaver.js** (CDN) — Batch ZIP downloads
 - **GitHub Pages** — Free hosting
 
-## 🔒 Privacy
+## Privacy
 
-- ✅ No tracking pixels or analytics
-- ✅ No external server communication
-- ✅ Links encoded in URL (visible but not transmitted)
-- ✅ All QR generation happens in-browser
+- No tracking pixels or analytics
+- No external server communication
+- Links encoded in URL (visible but not transmitted)
+- All QR generation happens in-browser
 
-## 📊 Testing
+## Testing
 
 Run the end-to-end test:
 ```bash
@@ -132,7 +132,7 @@ Output shows:
 - Scan page parsing ✓
 - QR validity ✓
 
-## 📖 Workflow Example
+## Workflow Example
 
 **Marketing creates a QR:**
 1. Opens https://barth-cyber.github.io/interiorductltd.html
@@ -148,7 +148,7 @@ Output shows:
 5. Taps "Instagram" → Opens Instagram
 6. Can repeat for any platform
 
-## 🚀 Deployment
+## Deployment
 
 Already hosted on GitHub Pages. To deploy your own:
 
@@ -165,7 +165,7 @@ git push
 # 4. Access at https://YOUR-USER.github.io/interiorductltd.html
 ```
 
-## 📝 License
+## License
 
 Private project for Interior Duct Ltd.
 
