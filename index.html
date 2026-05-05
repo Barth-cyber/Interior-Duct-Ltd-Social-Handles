@@ -458,7 +458,7 @@
             const userEmbed = document.getElementById('embedLogo').checked;
 
             const linksJson = JSON.stringify(links);
-            const scanUrl = `${window.location.origin}/interiorductltd.app/?links=${encodeURIComponent(linksJson)}`;
+            const scanUrl = `${window.location.origin}/idl.app/?links=${encodeURIComponent(linksJson)}`;
 
             // If payload long or multiple links, increase size and disable embedded logo for better scanning
             const preferLarge = linksJson.length > 180 || links.length > 3;

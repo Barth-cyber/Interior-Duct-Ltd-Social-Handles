@@ -8,7 +8,7 @@ except Exception:
     cairosvg = None
 
 short_id = 'yklwu8'
-base = 'https://barth-cyber.github.io/interiorductltd.app'
+base = 'https://barth-cyber.github.io/idl.app'
 scan_url = base + f'?id={short_id}'
 
 out_dir = 'assets'

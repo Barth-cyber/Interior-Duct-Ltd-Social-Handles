@@ -57,7 +57,7 @@ def test_scan_url_generation(links):
     
     # Simulate generateSocialQR() logic
     links_json = json.dumps(links)
-    base = 'https://barth-cyber.github.io/interiorductltd.app'
+    base = 'https://barth-cyber.github.io/idl.app'
     scan_url = base + '?links=' + urllib.parse.quote(links_json, safe='')
     
     print(f"✓ Generated scan URL:")
@@ -105,10 +105,10 @@ def test_qr_url_validity(scan_url):
     try:
         urllib.parse.urlparse(scan_url)
         # Verify it's HTTPS and points to the app URL
-        if 'interiorductltd.app' in scan_url and scan_url.startswith('https://'):
+        if 'idl.app' in scan_url and scan_url.startswith('https://'):
             print(f"✓ Scan URL is valid HTTPS URL")
             print(f"  Protocol: HTTPS ✓")
-            print(f"  Target: interiorductltd.app ✓")
+            print(f"  Target: idl.app ✓")
             print(f"  Has links parameter: {'?links=' in scan_url}")
             return True
         else:
