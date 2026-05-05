@@ -3,7 +3,7 @@ import qrcode
 from PIL import Image
 
 short_id = 'yklwu8'
-base = 'https://barth-cyber.github.io/IDL-Social-Handles/idl.app'
+base = 'https://barth-cyber.github.io/idl-social-handles/idl.app'
 scan_url = base + f'?id={short_id}'
 
 out_dir = 'assets'

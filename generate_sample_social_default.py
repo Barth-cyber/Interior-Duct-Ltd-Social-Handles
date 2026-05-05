@@ -14,7 +14,7 @@ def main():
         { 'platform': 'linkedin', 'url': 'https://www.linkedin.com/company/interior-duct-ltd/' }
     ]
     links_json = json.dumps([{'label': l.get('platform'), 'platform': l.get('platform'), 'url': l.get('url')} for l in defaultLinks])
-    base = 'https://barth-cyber.github.io/IDL-Social-Handles/idl.app'
+    base = 'https://barth-cyber.github.io/idl-social-handles/idl.app'
     scan_url = base + '?links=' + urllib.parse.quote(links_json, safe='')
 
     qr = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=8, border=4)
