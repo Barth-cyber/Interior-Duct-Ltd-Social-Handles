@@ -26,8 +26,8 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
 
 ### 2. **Social Media Links Mode** (Main Feature)
    - **Dynamic rows** — Add multiple social platforms at once
-   - **Auto-generate** — Pre-fill all Interior Duct Ltd links (WhatsApp, Instagram, TikTok, Facebook, X, YouTube, LinkedIn)
-   - **Single QR Code** — One scan displays all social links
+   - **Auto-generate** — Pre-fill all Interior Duct Ltd links (WhatsApp, Instagram, TikTok, Facebook, X, YouTube, LinkedIn, Website, Email)
+   - **Single QR Code** — One scan displays all contact links
    - **Mobile-optimized** — Branded card interface with clickable links
    - **Download QR** — Save the generated QR as PNG
 
@@ -67,9 +67,9 @@ When a QR is scanned, customers see:
 - **Header:** Interior Duct Ltd logo + tagline ("Functionality, Durability, Aesthetics")
 - **Section:** "Connect with Us On"
 - **Social Cards:** Each platform with icon, name, and clickable link
-- **Platforms:** WhatsApp, Instagram, TikTok, Facebook, X, YouTube, LinkedIn
+- **Platforms:** WhatsApp, Instagram, TikTok, Facebook, X, YouTube, LinkedIn, Website, Email
 
-All social links open directly in their respective apps/websites.
+All social links open directly in their respective apps, websites, or mail client.
 
 ##  Customization
 
@@ -144,7 +144,7 @@ Output shows:
 **Customer scans it:**
 1. Opens camera → Scans QR
 2. Redirected to mobile view
-3. Sees all 7 social platforms
+3. Sees all 9 contact options
 4. Taps "WhatsApp Business" → Opens WhatsApp
 5. Taps "Instagram" → Opens Instagram
 6. Can repeat for any platform
