@@ -5,7 +5,7 @@ from PIL import Image
 from reportlab.pdfgen import canvas
 
 short_id='idl1'
-url=f"https://barth-cyber.github.io/idl.app?id={short_id}"
+url=f"https://barth-cyber.github.io/IDL-Social-Handles/idl.app?id={short_id}"
 out='assets'
 os.makedirs(out, exist_ok=True)
 png=os.path.join(out,f'short_{short_id}.png')

@@ -4,7 +4,7 @@ from qrcode.image.svg import SvgImage
 from PIL import Image
 
 short = 'idl_icons_v1'
-base = 'https://barth-cyber.github.io/idl.app'
+base = 'https://barth-cyber.github.io/IDL-Social-Handles/idl.app'
 url = base + f'?iconsId={short}'
 
 out = 'assets'

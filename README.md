@@ -4,9 +4,9 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
 
 ## Live Site
 
-**Short share URL:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/s/  
-**Generator:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/idl.html  
-**Mobile View:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/idl.app/
+**Short share URL:** https://barth-cyber.github.io/IDL-Social-Handles/s/  
+**Generator:** https://barth-cyber.github.io/IDL-Social-Handles/idl.html  
+**Mobile View:** https://barth-cyber.github.io/IDL-Social-Handles/idl.app/
 
 ## Files
 
@@ -40,7 +40,7 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
 
 ### For End Users (Marketing Team)
 
-1. **Open:** https://barth-cyber.github.io/idl.html
+1. **Open:** https://barth-cyber.github.io/IDL-Social-Handles/idl.html
 2. **Go to:** "Social Media Links Mode"
 3. **One-Click Option:** Click **"⟳ Use Interior Duct Ltd Links"** 
    - Auto-fills all social channels
@@ -136,7 +136,7 @@ Output shows:
 ## Workflow Example
 
 **Marketing creates a QR:**
-1. Opens https://barth-cyber.github.io/idl.html
+1. Opens https://barth-cyber.github.io/IDL-Social-Handles/idl.html
 2. Clicks "Use Interior Duct Ltd Links"
 3. Downloads QR PNG
 4. Prints on brochures/business cards
@@ -163,7 +163,7 @@ git commit -m "Initial commit"
 git push
 
 # 3. Enable Pages in repo settings (main branch, root folder)
-# 4. Access at https://YOUR-USER.github.io/idl.html
+# 4. Access at https://YOUR-USER.github.io/IDL-Social-Handles/idl.html
 ```
 
 ## License

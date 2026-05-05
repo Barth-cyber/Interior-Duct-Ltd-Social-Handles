@@ -16,7 +16,7 @@ try:
     
     # Build the scan URL
     links_json = json.dumps(links, separators=(',', ':'))
-    base = 'https://barth-cyber.github.io/idl.app'
+    base = 'https://barth-cyber.github.io/IDL-Social-Handles/idl.app'
     scan_url = base + '?links=' + urllib.parse.quote(links_json, safe='')
     
     print(f"Generated scan URL (length: {len(scan_url)})")
