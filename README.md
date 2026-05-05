@@ -4,7 +4,8 @@ A private, client-side QR code generator for Interior Duct Ltd. Generates brande
 
 ## Live Site
 
-**Generator:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/app.html  
+**Short share URL:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/s/  
+**Generator:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/idl.html  
 **Mobile View:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/idl.app/
 
 ## Files
