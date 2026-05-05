@@ -249,6 +249,7 @@
             'linkedin': 'LinkedIn Profile',
             'twitter': 'Twitter/X Profile',
             'pinterest': 'Pinterest Board',
+            'website': 'Official Website',
             'phone': 'Call Now',
             'email': 'Send Email'
         };
@@ -261,7 +262,9 @@
             'tiktok': 'social logos/TikTok.PNG',
             'youtube': 'social logos/YouTube.PNG',
             'linkedin': 'social logos/LinkedIn.PNG',
-            'twitter': 'social logos/Social2.png'
+            'twitter': 'social logos/Social2.png',
+            'website': 'social logos/website.svg',
+            'email': 'social logos/email.svg'
         };
 
         // Parse query parameters
@@ -330,7 +333,9 @@
                     { label: 'Facebook Page', platform: 'facebook', url: 'https://www.facebook.com/interior.duct.ltd/' },
                     { label: 'Twitter (X)', platform: 'twitter', url: 'https://x.com/InteriorDuctLtd' },
                     { label: 'YouTube Channel', platform: 'youtube', url: 'https://www.youtube.com/@InteriorDuctLtd' },
-                    { label: 'LinkedIn Profile', platform: 'linkedin', url: 'https://www.linkedin.com/company/interior-duct-ltd/' }
+                    { label: 'LinkedIn Profile', platform: 'linkedin', url: 'https://www.linkedin.com/company/interior-duct-ltd/' },
+                    { label: 'Official Website', platform: 'website', url: 'https://interiorductltd.com/' },
+                    { label: 'Email', platform: 'email', url: 'mailto:interiorductltd@gmail.com' }
                 ];
             }
 
@@ -340,6 +345,7 @@
                 for (const link of links) {
                     const platformKey = link.platform ? link.platform.toLowerCase() : '';
                     const logoUrl = logoMap[platformKey] || null;
+                    const fallbackIcon = platformKey === 'website' ? '🌐' : '🔗';
                     
                     const a = document.createElement('a');
                     a.href = link.url;
@@ -356,7 +362,7 @@
                         img.alt = platformKey;
                         iconDiv.appendChild(img);
                     } else {
-                        iconDiv.textContent = '🔗';
+                        iconDiv.textContent = fallbackIcon;
                     }
 
                     const infoDiv = document.createElement('div');
