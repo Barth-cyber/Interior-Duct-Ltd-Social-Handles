@@ -1,11 +1,11 @@
-# Interior Duct Ltd — Social Media Marketing
+# IDL Social Handles — Social Media Marketing
 
 A private, client-side QR code generator for Interior Duct Ltd. Generates branded QR codes linking to a mobile app view displaying all social media channels. **No tracking, no external servers.**
 
 ## Live Site
 
-**Generator:** https://barth-cyber.github.io/interiorductltd.html  
-**Mobile View:** https://barth-cyber.github.io/interiorductltd.app
+**Generator:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/app.html  
+**Mobile View:** https://barth-cyber.github.io/Interior-Duct-Ltd-Social-Handles/interiorductltd.app/
 
 ## Files
 
